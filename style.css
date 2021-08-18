@@ -1,0 +1,41 @@
+/*estilos da pagina index.html*/
+.center{
+    text-align: center;
+}
+
+.container{
+    display: flex;                                           /*se adapta a tela de qqr dispositivo*/
+    flex-flow: row;                                /*se tiver o wrap quebra a linha, só o row coloca do lado*/
+    justify-content: center;                                /*centraliza*/
+    align-items: center;                                 /*alinha tds os itens*/
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;                                            /*espaçamento entre os itens selecionados*/
+    
+}
+
+#menu li a{
+    text-decoration: none;                                 /* tirar o azul dos links e deixar só preto*/
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: gray;                         /*muda a cor para cinza quando passa o cursor em cima do link*/
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.wh{
+    width: 500px;
+    height: 300px;
+}
+
+
+
+
+/*estilos da pagina contato.html*/
